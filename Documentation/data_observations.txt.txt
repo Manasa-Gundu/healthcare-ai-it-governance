@@ -1,0 +1,11 @@
+Healthcare Quality & IT Governance Analytics
+Data Observations
+
+Dataset:
+CMS Hospital General Information
+
+Initial observation:
+The Hospital overall rating field contains ratings from 1 to 5, as well as "Not Available" values.
+
+Data quality note:
+"Not Available" should not be treated as a rating of 0. These records will need to be handled appropriately during analysis.
