@@ -26,3 +26,16 @@ Rating 5: 384 hospitals (7.09%)
 Not Available: 2,245 hospitals (41.43%)
 
 The "Not Available" category is the largest category and represents approximately 41.4% of the dataset. These records should not be interpreted as poorly rated hospitals.
+
+Rated Hospital Distribution:
+
+Among the 3,174 hospitals with an available overall rating:
+
+Rating 1: 198 hospitals (6.24%)
+Rating 2: 661 hospitals (20.83%)
+Rating 3: 985 hospitals (31.03%)
+Rating 4: 946 hospitals (29.80%)
+Rating 5: 384 hospitals (12.10%)
+
+Denominator:
+Percentages in this section use 3,174 rated hospitals as the denominator, excluding the 2,245 hospitals with "Not Available" ratings.
