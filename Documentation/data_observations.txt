@@ -1,0 +1,28 @@
+Healthcare Quality & IT Governance Analytics
+Data Observations
+
+Dataset:
+CMS Hospital General Information
+
+Initial observation:
+The Hospital overall rating field contains ratings from 1 to 5, as well as "Not Available" values.
+
+Data quality note:
+"Not Available" should not be treated as a rating of 0. These records will need to be handled appropriately during analysis.
+
+Overall Rating Data Quality Finding:
+The dataset contains 5,419 hospitals. Of these, 2,245 (41.4%) have "Not Available" for the Hospital overall rating.
+
+Analysis implication:
+The "Not Available" records should not be treated as a rating of zero. Any analysis of overall hospital ratings should clearly account for these unavailable values.
+
+Overall Rating Distribution:
+
+Rating 1: 198 hospitals (3.65%)
+Rating 2: 661 hospitals (12.20%)
+Rating 3: 985 hospitals (18.18%)
+Rating 4: 946 hospitals (17.46%)
+Rating 5: 384 hospitals (7.09%)
+Not Available: 2,245 hospitals (41.43%)
+
+The "Not Available" category is the largest category and represents approximately 41.4% of the dataset. These records should not be interpreted as poorly rated hospitals.
